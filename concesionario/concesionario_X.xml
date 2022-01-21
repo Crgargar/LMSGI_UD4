@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UFT-8"?>
+<concesionario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="concesionario.xsd">
+    <coche>
+        <codigo>1</codigo>
+        <marca>seat</marca>
+        <modelo> leon </modelo>
+        <matricula>1234-bbb</matricula>
+        <potencia>120</potencia>
+        <plaza>5</plaza>
+        <numPuertas>3</numPuertas> 
+    </coche>
+    <coche>
+        <codigo>2</codigo>
+        <marca>seat</marca>
+        <modelo> ibiza </modelo>
+        <matricula>1254-crb</matricula>
+        <potencia>130</potencia>
+        <plaza>5</plaza>
+        <numPuertas>5</numPuertas> 
+    </coche>
+    <coche>
+        <codigo>3</codigo>
+        <marca>renault</marca>
+        <modelo> megan </modelo>
+        <matricula>1394-rbb</matricula>
+        <potencia>120</potencia>
+        <plaza>5</plaza>
+        <numPuertas>5</numPuertas> 
+    </coche>
+    <coche>
+        <codigo>4</codigo>
+        <marca>renault</marca>
+        <modelo> clio </modelo>
+        <matricula>2034-bft</matricula>
+        <potencia>150</potencia>
+        <plaza>2</plaza>
+        <numPuertas>3</numPuertas> 
+    </coche>
+    <coche>
+        <codigo>5</codigo>
+        <marca>skoda</marca>
+        <modelo> fabia </modelo>
+        <matricula>7634-iop</matricula>
+        <potencia>110</potencia>
+        <plaza>5</plaza>
+        <numPuertas>5</numPuertas> 
+    </coche>
+</concesionario>
