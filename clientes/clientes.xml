@@ -1,24 +1,31 @@
-<sede>
-    <codigoSede>A93doa94</codigoSede>
-    <nombreEmpleado>Juan</nombreEmpleado>
-    <fecha>25/04/85</fecha>
-    <descripcion>solvente</descripcion>
-    <clientes>
-        <codigoCliente>ARD-1-2-3</codigoCliente>
-        <numero>2</numero>
-        <coste>10.000</coste>
-        <resumen>vacia</resumen>
-        <plazo>3 meses</plazo>
-    </clientes>
-    <codigoSede>Ae8d78t4</codigoSede>
-    <nombreEmpleado>Ana</nombreEmpleado>
-    <fecha>03/07/99</fecha>
-    <descripcion>insolvente</descripcion>
-    <clientes>
-        <codigoCliente>ITO-7-3-7</codigoCliente>
-        <numero>1</numero>
-        <coste>12.000</coste>
-        <resumen>alquilada</resumen>
-        <plazo>1 año</plazo>
-    </clientes>
-</sede>
+<clientes>
+    <sede cod_sede="1">
+        <nombreEmpleado>Juan</nombreEmpleado>
+        <fecha>25/04/85</fecha>
+        <descripcion>solvente</descripcion>
+        <cliente cod_cliente="1">
+            <codigoCliente>ARD-1-2-3</codigoCliente>
+            <numero>2</numero>
+            <coste>10.000</coste>
+            <resumen>vacia</resumen>
+            <plazo>3 meses</plazo>
+        </cliente>
+    </sede>
+    <sede cod_sede="2">
+        <nombreEmpleado>Ana</nombreEmpleado>
+        <fecha>03/07/99</fecha>
+        <descripcion>insolvente</descripcion>
+        <cliente cod_cliente="2">
+            <numero>1</numero>
+            <coste>12.000</coste>
+            <resumen>alquilada</resumen>
+            <plazo>1 año</plazo>
+        </cliente>
+        <cliente cod_cliente="2">
+            <numero>3</numero>
+            <coste>10.000</coste>
+            <resumen>ocupada</resumen>
+            <plazo>2 año</plazo>
+        </cliente>
+    </sede>
+</clientes>

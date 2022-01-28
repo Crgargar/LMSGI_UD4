@@ -1,10 +1,11 @@
-<!ELEMENT sede (sede*)>
-<!ELEMENT codigoSede (#PCDATA)>
+<!ELEMENT clientes (sede*)>
+<!ELEMENT sede (codigoSede, nombreEmpleado, fecha, descripcion, cliente)>
+<!ATTLIST sede cod_sede CDATA #REQUIRED>
 <!ELEMENT nombreEmpleado (#PCDATA)>
 <!ELEMENT fecha (#PCDATA)>
 <!ELEMENT descripcion (#PCDATA)>
-<!ELEMENT clientes (codigoCliente, numero, coste, resumen, plazo)>
-<!ELEMENT codigoCliente (#PCDATA)>
+<!ELEMENT cliente (codigoCliente, numero, coste, resumen, plazo)>
+<!ATTLIST sede cod_cliente CDATA #REQUIRED>
 <!ELEMENT numero (#PCDATA)>
 <!ELEMENT coste (#PCDATA)>
 <!ELEMENT resumen (#PCDATA)>

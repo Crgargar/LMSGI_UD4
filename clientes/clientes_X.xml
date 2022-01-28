@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UFT-8"?>
+<xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="clientes.xsd">
+<clientes>
+  <sede codigo="A0002">
+    <nombreEmpleado>Juan</nombreEmpleado>
+    <fecha>25/04/85</fecha>
+    <descripcion>solvente</descripcion>
+    <cliente>
+        <codigoCliente>ARD-1-2-3</codigoCliente>
+        <numero>2</numero>
+        <coste>10.000</coste>
+        <resumen>vacia</resumen>
+        <plazo>3 meses</plazo>
+    </cliente>
+  </sede>
+  <sede codigo="B0001">
+    <nombreEmpleado>Ana</nombreEmpleado>
+    <fecha>03/07/99</fecha>
+    <descripcion>insolvente</descripcion>
+    <cliente>
+        <codigoCliente>ITO-7-3-7</codigoCliente>
+        <numero>1</numero>
+        <coste>12.000</coste>
+        <resumen>alquilada</resumen>
+        <plazo>1 año</plazo>
+    </cliente>
+    <cliente>
+        <codigoCliente>ISS-7-3-7</codigoCliente>
+        <numero>3</numero>
+        <coste>10.000</coste>
+        <resumen>ocupada</resumen>
+        <plazo>2 año</plazo>
+    </cliente>
+  </sede>
+</clientes>
