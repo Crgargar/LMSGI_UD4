@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfgs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="modulo.xsd">
+    <modulos>
+        <nombreModulo>Informatica</nombreModulo>
+        <UDs>
+            <unidad>1</unidad>
+            <tema>tema 1</tema>
+            <descripcion>creacion de xml</descripcion>
+        </UDs>
+        <UDs>
+            <unidad>2</unidad>
+            <tema>tema 2</tema>
+            <descripcion>creacion de un DTD</descripcion>
+        </UDs>
+    </modulos>
+    <modulos>
+        <nombreModulo>Lengua</nombreModulo>
+        <UDs>
+            <unidad>1</unidad>
+            <tema>tema 1</tema>
+            <descripcion> analisis sintactico</descripcion>
+        </UDs>
+        <UDs>
+            <unidad>2</unidad>
+            <tema> tema 2</tema>
+            <descripcion> lectura del libro didactico</descripcion>
+        </UDs>
+    </modulos>
+</cfgs>

@@ -1,0 +1,8 @@
+<?xml encoding="UTF-8"?>
+<!ELEMENT cfgs (modulos)+>
+<!ELEMENT modulos (nombreModulo,UDs+)>
+<!ELEMENT nombreModulo (#PCDATA)>
+<!ELEMENT UDs (unidad,tema,descripcion)>
+<!ELEMENT unidad (#PCDATA)>
+<!ELEMENT tema (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>

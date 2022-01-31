@@ -1,9 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <clientes>
-    <sede cod_sede="1">
+    <sede cod_sede="A0000001">
         <nombreEmpleado>Juan</nombreEmpleado>
         <fecha>25/04/85</fecha>
         <descripcion>solvente</descripcion>
-        <cliente cod_cliente="1">
+        <cliente cod_cliente="AAA-001">
             <codigoCliente>ARD-1-2-3</codigoCliente>
             <numero>2</numero>
             <coste>10.000</coste>
@@ -11,17 +12,17 @@
             <plazo>3 meses</plazo>
         </cliente>
     </sede>
-    <sede cod_sede="2">
+    <sede cod_sede="A0000002">
         <nombreEmpleado>Ana</nombreEmpleado>
         <fecha>03/07/99</fecha>
         <descripcion>insolvente</descripcion>
-        <cliente cod_cliente="2">
+        <cliente cod_cliente="AAA-002">
             <numero>1</numero>
             <coste>12.000</coste>
             <resumen>alquilada</resumen>
             <plazo>1 año</plazo>
         </cliente>
-        <cliente cod_cliente="2">
+        <cliente cod_cliente="AAA-003">
             <numero>3</numero>
             <coste>10.000</coste>
             <resumen>ocupada</resumen>
