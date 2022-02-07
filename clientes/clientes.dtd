@@ -1,12 +1,11 @@
 <?xml encoding="UTF-8"?>
-<!ELEMENT clientes (sede)+>
-<!ELEMENT sede (nombreEmpleado,fecha,descripcion,cliente+)>
-<!ELEMENT nombreEmpleado (#PCDATA)>
-<!ELEMENT fecha (#PCDATA)>
-<!ELEMENT descripcion (#PCDATA)>
-<!ELEMENT cliente (codigoCliente?,numero,coste,resumen,plazo)>
-<!ELEMENT codigoCliente (#PCDATA)>
+<!ELEMENT cliente (sede+,numero,coste,resumen,plazo)?>
+<!ELEMENT sede (direccion*,(cliente|empleado|fecha)*,descripcion?)>
 <!ELEMENT numero (#PCDATA)>
 <!ELEMENT coste (#PCDATA)>
 <!ELEMENT resumen (#PCDATA)>
 <!ELEMENT plazo (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT empleado (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>

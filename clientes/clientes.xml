@@ -1,32 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<clientes>
-    <sede cod_sede="A0000001">
-        <nombreEmpleado>Juan</nombreEmpleado>
-        <fecha>25/04/85</fecha>
-        <descripcion>solvente</descripcion>
-        <cliente cod_cliente="AAA-001">
-            <codigoCliente>ARD-1-2-3</codigoCliente>
-            <numero>2</numero>
-            <coste>10.000</coste>
-            <resumen>vacia</resumen>
-            <plazo>3 meses</plazo>
-        </cliente>
+<cliente>
+    <sede codigo="M5ctHZdu">
+      <direccion>C/larga</direccion>
+      <direccion>bornos</direccion>
+      <empleado>juan</empleado>
+      <fecha>25/03/1983</fecha>
+      <descripcion>alquiler</descripcion>
     </sede>
-    <sede cod_sede="A0000002">
-        <nombreEmpleado>Ana</nombreEmpleado>
-        <fecha>03/07/99</fecha>
-        <descripcion>insolvente</descripcion>
-        <cliente cod_cliente="AAA-002">
+    <sede codigo="R97mU9Kt">
+      <direccion>C/ancha</direccion>
+      <empleado>ubrique</empleado>
+      <fecha>25/09/03</fecha>
+      <cliente>
+        <sede codigo="YS2h3vdZ">
+          <empleado>juan</empleado>
+          <fecha>30/02/1988</fecha>
+          <cliente cod_cliente="AAA-002">
             <numero>1</numero>
             <coste>12.000</coste>
             <resumen>alquilada</resumen>
             <plazo>1 año</plazo>
         </cliente>
-        <cliente cod_cliente="AAA-003">
+        </sede>
+      </cliente>
+      <cliente>
+        <sede codigo="s1rr5FCG">
+          <empleado>pepe</empleado>
+          <fecha>25/04/1997</fecha>
+          <cliente cod_cliente="AAA-003">
             <numero>3</numero>
             <coste>10.000</coste>
             <resumen>ocupada</resumen>
             <plazo>2 año</plazo>
         </cliente>
+        </sede>
+      </cliente>
     </sede>
-</clientes>
+</cliente>
