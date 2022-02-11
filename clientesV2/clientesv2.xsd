@@ -2,9 +2,8 @@
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <xsd:annotation>
         <xsd:documentation xml:lang="Es-es">
-            Esquema para el alta de clientes en sede central
             <fecha>2020-01-31</fecha>
-            <autor>Ana González</autor>
+            <autor>cristian</autor>
         </xsd:documentation>
     </xsd:annotation>
     <xsd:element name="clientes" type="clienteDatos" />
@@ -37,6 +36,17 @@
                     </xsd:restriction>
                 </xsd:simpleType>
             </xsd:element>
+            <xsd:element name="vivienda" type="ViviendaDatos" minOccurs="1" maxOccurs="unbounded" />
+        </xsd:sequence>
+        <xsd:attribute name="codigo" type="codigoCliente" use="required" />
+    </xsd:complexType>
+    <xsd:simpleType name="codigoCliente">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="[A-Z]{3}-[0-9]{3}" />
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:complexType name="ViviendaDatos">
+        <xsd:sequence>
             <xsd:element name="coste">
                 <xsd:simpleType>
                     <xsd:restriction base="xsd:decimal">
@@ -52,14 +62,12 @@
                     </xsd:restriction>
                 </xsd:simpleType>
             </xsd:element>
-        </xsd:sequence>
-        <xsd:attribute name="codigo" type="codigoCliente" use="required" />
-    </xsd:complexType>
-    <xsd:simpleType name="codigoCliente">
+        </xsd:sequence>    
+        <xsd:attribute name="ID" type="codigoVivienda" use="required" />    
+    </xsd:complexType>    
+    <xsd:simpleType name="codigoVivienda">
         <xsd:restriction base="xsd:string">
-            <xsd:pattern value="[A-Z]{3}-[0-9]{3}" />
+            <xsd:pattern value="[A-Za-z0-9]{3}" />
         </xsd:restriction>
     </xsd:simpleType>
 </xsd:schema>
-
-    

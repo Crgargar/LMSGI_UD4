@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UFT-8"?>
+<editorial_aranda xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="editorial.xsd">
+    <cabecera>
+      <titulo>Ediciones Aranda</titulo>
+      <contenido>Informe regional del ventas</contenido>
+      <descripcion>Descripcion: informe de ventas para las regiones Norte, Centro y Sur</descripcion>
+      <fecha_informe>30/12/2009</fecha_informe>
+    </cabecera>
+    <tabla>
+      <region>
+        <norte>norte
+          <trimestre>1</trimestre>
+            <libro>24000</libro>
+          <trimestre>2</trimestre>
+            <libro>38600</libro>
+          <trimestre>3</trimestre>
+            <libro></libro>
+          <trimestre>4</trimestre>
+            <libro></libro>
+        </norte>
+      </region>
+      <region>
+        <centro> centro
+          <trimestre>1</trimestre>
+            <libro></libro>
+          <trimestre>2</trimestre>
+            <libro>16080</libro>
+          <trimestre>3</trimestre>
+            <libro>25000</libro>
+          <trimestre>4</trimestre>
+            <libro>29000</libro>
+        </centro>
+      </region>
+      <region>
+        <sur> sur
+          <trimestre>1</trimestre>
+            <libro>27000</libro>
+          <trimestre>2</trimestre>
+            <libro>31400</libro>
+          <trimestre>3</trimestre>
+            <libro>40100</libro>
+          <trimestre>4</trimestre>
+            <libro>30000</libro>
+        </sur>
+      </region>
+      <trimestre>Trimestre</trimestre>
+      <libros_vendidos>Libros vendidos</libros_vendidos>
+    </tabla>
+  </editorial_aranda>

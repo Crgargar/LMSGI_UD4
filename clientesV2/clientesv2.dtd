@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!ELEMENT clientes (sede)*>
+<!ELEMENT sede (codigo|direccion|empleado|fecha|descripcion|cliente)*>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT empleado (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT cliente (numero|vivienda)*>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT vivienda (coste|resumen|plazo)*>
+<!ELEMENT coste (#PCDATA)>
+<!ELEMENT resumen (#PCDATA)>
+<!ELEMENT plazo (#PCDATA)>

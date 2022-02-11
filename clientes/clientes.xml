@@ -1,39 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cliente>
-    <sede codigo="M5ctHZdu">
-      <direccion>C/larga</direccion>
-      <direccion>bornos</direccion>
-      <empleado>juan</empleado>
-      <fecha>25/03/1983</fecha>
-      <descripcion>alquiler</descripcion>
-    </sede>
-    <sede codigo="R97mU9Kt">
-      <direccion>C/ancha</direccion>
-      <empleado>ubrique</empleado>
-      <fecha>25/09/03</fecha>
-      <cliente>
-        <sede codigo="YS2h3vdZ">
-          <empleado>juan</empleado>
-          <fecha>30/02/1988</fecha>
-          <cliente cod_cliente="AAA-002">
-            <numero>1</numero>
-            <coste>12.000</coste>
-            <resumen>alquilada</resumen>
-            <plazo>1 año</plazo>
+<clientes>
+    <sede codigo="A0000001">
+        <direccion>C/Castilla, 1</direccion>
+        <direccion>C/Castilla, 1</direccion>
+        <empleado>José luis Comesaña</empleado>
+        <fecha>12-01-2012</fecha>
+        <descripcion>Urgente</descripcion>
+        <cliente codigo="AAA-111">
+            <numero>12</numero>
+            <coste>100</coste>
+            <resumen>Producto muy frágil</resumen>
+            <plazo>10</plazo>
         </cliente>
-        </sede>
-      </cliente>
-      <cliente>
-        <sede codigo="s1rr5FCG">
-          <empleado>pepe</empleado>
-          <fecha>25/04/1997</fecha>
-          <cliente cod_cliente="AAA-003">
-            <numero>3</numero>
-            <coste>10.000</coste>
-            <resumen>ocupada</resumen>
-            <plazo>2 año</plazo>
+        <cliente codigo="AAA-112">
+            <numero>10</numero>
+            <coste>10</coste>
+            <resumen>No apilar más de cinco paquetes</resumen>
+            <plazo>8</plazo>
         </cliente>
-        </sede>
-      </cliente>
     </sede>
-</cliente>
+    <sede codigo="B00000002">
+        <direccion>Avda. Gran Vía s/n</direccion>
+        <empleado>Antonio Resines</empleado>
+        <fecha>10-02-2012</fecha>
+        <cliente codigo="ABC-001">
+            <numero>5</numero>
+            <coste>50</coste>
+            <resumen />
+            <plazo>3</plazo>
+        </cliente>
+    </sede>
+</clientes>
