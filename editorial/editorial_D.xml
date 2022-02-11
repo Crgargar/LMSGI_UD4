@@ -44,7 +44,7 @@
           <libro>30000</libro>
       </sur>
     </region>
-    <trimestre>Trimestre</trimestre>
+    <trimestres>Trimestre</trimestres>
     <libros_vendidos>Libros vendidos</libros_vendidos>
   </tabla>
 </editorial_aranda>
